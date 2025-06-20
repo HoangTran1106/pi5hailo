@@ -7,4 +7,4 @@ git clone https://github.com/hailo-ai/hailo-rpi5-examples.git
 cd hailo-rpi5-examples
 ./install.sh
 source setup_env.sh
-python basic_pipelines/detection.py -i rpi --hef /home/pi/Hailo8l/best.hef --labels-json /home/pi/Hailo8l/labels_yolov11n.json
+python basic_pipelines/detection.py -i usb --hef <>/best.hef --labels-json labels.json
